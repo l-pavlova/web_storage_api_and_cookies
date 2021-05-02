@@ -1,0 +1,77 @@
+#cookies-demo {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 2px;
+}
+
+#cookies-demo td, #cookies-demo th {
+  border: 1px solid #ddd;
+  padding: 6px;
+}
+
+#cookies-demo tr:nth-child(odd) {
+  background-color: #e3e9eb;
+}
+
+#cookies-demo tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#cookies-demo tr:hover {
+  background-color: #ddd;
+}
+
+#cookies-demo th {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-align: left;
+  background-color: #000000;
+  color: white;
+}
+
+form {
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #2c2c2c;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #161616;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  /* your changes */
+  #cookies-demo {
+    border-collapse: collapse;
+    margin: 25px 0;
+    margin-right: 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 300px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    padding-right: 0;
+  }
+}
